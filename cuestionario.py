@@ -341,7 +341,7 @@ class AppController:
     def __init__(self, master):
         self.master = master
         self.master.title("Cuestionario de Temas")
-        self.master.geometry("500x700")
+        self.master.geometry("200x350")
         
         self.menu_frame = None
         self.quiz_frame = None
